@@ -8,7 +8,8 @@ namespace Lsp
         static void Main(string[] args)
         {
             //CreditCard card = new CreditCard();
-            DebitCard card = new DebitCard();
+            //DebitCard card = new DebitCard();
+            NubankRewards card = new NubankRewards();
             card.Validate();
             card.CollectPayment();
 
