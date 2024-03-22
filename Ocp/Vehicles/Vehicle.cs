@@ -2,7 +2,7 @@
 
 namespace Ocp.Vehicles
 {
-    class Vehicle
+    class Vehicle : IVehicle
     {
         protected string color;
         protected int year;
