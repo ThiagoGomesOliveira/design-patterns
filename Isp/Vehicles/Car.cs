@@ -2,7 +2,7 @@
 
 namespace Isp.Vehicles
 {
-    class Car : IVehicle
+    class Car : IVehicle, IVehicleCar
     {
 
         private string color;
@@ -21,12 +21,7 @@ namespace Isp.Vehicles
             Console.WriteLine($"Criando carro ano {year}, motor {engine} da cor{color}");
             StartVehicle();
         }
-
-        public void ConfigureMotorcycle(string color, int year, double engine)
-        {
-        
-        }
-
+               
         public void StartVehicle()
         {
             Console.WriteLine("Ligando os motores.");
